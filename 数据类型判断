@@ -1,0 +1,8 @@
+值	    ：	  typeof  / i.constructor == Number                 :  字符串、数字、布尔
+对象	 ：	 i.constructor == o                                :  数组、对象
+       	    i instanceof o
+            o.prototype.isProtottypeOf(i)
+
+基本数据类型：字符串、数字、布尔、数组、对象、Null、Undefined(自身就是类型，不用判断)
+
+Function 例外。 一个构造函数是Function;实例化后的对象是Object;
